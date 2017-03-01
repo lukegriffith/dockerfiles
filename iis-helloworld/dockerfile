@@ -1,0 +1,8 @@
+FROM microsoft/iis
+
+CMD mkdir C:\\www
+
+WORKDIR C:\\www
+
+COPY index.html index.html
+
